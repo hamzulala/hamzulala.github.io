@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+button {
+  border-radius: 2px;
+  background-color: #dfdfdf;
+  border: 1;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.btn {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.btnd:visited {
+  background-color: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #828282;
+  color: white;
+}
+
+.btnChangePage{
+  width: 45%;
+  height: 50px;
+
+}
+.btnSamePage{
+  width: 45%;
+  height: 50px;
+  background-color: white;
+}
+button.btnChangePage:hover{
+  background-color: yellow;
+}
+button.btnSamePage:active {
+  border-style: outset;
+}
