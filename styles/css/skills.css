@@ -1,0 +1,26 @@
+body {
+    background-color: #dee5ea;
+  }
+  .heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3pc;
+    color: #31443E;
+    float: left;
+  }
+
+  .navigation {
+    position: absolute;
+    right: 0px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .logo_grid {
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .skill_logo {
+    min-width: 100px;
+    max-width: 200px;
+  }

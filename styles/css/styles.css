@@ -1,7 +1,8 @@
+
 .button {
-	display: inline-block;
-  margin: 0;
-  padding: 0.75rem 1rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0.75rem 1rem;
 	border: 0;
 	border-radius: 1rem;
 	background-color: #6C9A8B;
@@ -9,18 +10,21 @@
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1rem;
-  line-height: 1.5;
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	cursor: pointer;
+    line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	-webkit-appearance: none;
 	-webkit-font-smoothing: antialiased;
 }
-img:hover{
+
+.profilePic :hover{
     opacity: 0.85;
 }
 
 .button:hover {
-	opacity: 0.85;
+    opacity: 0.85;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:active {
@@ -54,3 +58,5 @@ img:hover{
     margin: auto;
     padding-top: 5rem
 }
+
+  
