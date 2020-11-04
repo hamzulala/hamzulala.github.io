@@ -24,11 +24,11 @@
     <div class="center">
       <img src="./styles/images/profile_pic.png" alt="Profile Picture" style="width:20%" class = "profilePic"> <!--Profile Picture-->
       <br><br>
-      <a href="pages/skills.php" class="button">Skills</a><!--Goes To Skills Page-->
+      <a href="skills.php" class="button">Skills</a><!--Goes To Skills Page-->
       <br><br>
-      <a href="pages/education.php" class="button button_primary"">Education</a><!--Goes To Education Page-->
+      <a href="education.php" class="button button_primary"">Education</a><!--Goes To Education Page-->
       <br><br>
-      <a href="pages/contact.php" class="button button_secondary">Contact</a><!--Goes To Contact Page-->
+      <a href="contact.php" class="button button_secondary">Contact</a><!--Goes To Contact Page-->
     </div>
     
   </body>
